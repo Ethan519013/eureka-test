@@ -1,0 +1,12 @@
+server:
+  port: 7009
+spring:
+  application:
+    name: eureka-server2
+eureka:
+  client:
+    service-url:
+      defaultZone: http://server1:7000/eureka/
+  instance:
+    hostname: server2
+    lease-renewal-interval-in-seconds: 5
