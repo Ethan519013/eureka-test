@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: eureka-hystrix-client1
+
+server:
+  port: 8766
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7000/eureka
+
+feign:
+  circuitbreaker:
+    enabled: true
+
+hystrix:
+  dashboard:
+    proxy-stream-allow-list: "*"

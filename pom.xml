@@ -23,13 +23,13 @@
         <module>eureka-consumer</module>
         <module>eureka-ribbon-client</module>
         <module>eureka-feign-client</module>
+        <module>eureka-hystrix-client</module>
+        <module>eureka-hystrix-provider</module>
+        <module>eureka-hystrix-client1</module>
+        <module>eureka-hystrix-provider1</module>
+        <module>turbine-server</module>
     </modules>
     <dependencies>
-        <dependency>
-            <groupId>com.ethan</groupId>
-            <artifactId>dm-common-module</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
